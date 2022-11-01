@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Agenda de Contatos</title>
+</head>
+<body>
+        <div class="msgerror" >Contato Existente</div>
+            <form>
+                <span>Adicionar novo contato</span>
+                <div class="wrapper">
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" required autocomplete="off">
+                </div>
+                <div class="wrapper">
+                    <label for="name">Tel</label>
+                    <input type="text" id="tel" required maxlength="15" autocomplete="off" placeholder="(xx)xxxx-xxxx">
+                </div>
+                <button>Adicionar <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_3_12)">
+                    <path d="M6 11C8.7615 11 11 8.7615 11 6C11 3.2385 8.7615 1 6 1C3.2385 1 1 3.2385 1 6C1 8.7615 3.2385 11 6 11Z" stroke="#FFF8F8" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M5.37 7.765L7.13 6L5.37 4.235" stroke="#FFF8F8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_3_12">
+                    <rect width="12" height="12" fill="white"/>
+                    </clipPath>
+                    </defs>
+                    </svg>
+                    </button>
+            </form>
+
+            <table>
+                <caption>Meus Contatos</caption> 
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Telefone</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="name"><svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="14.5" cy="14.5" r="13.5" fill="#3A608C" stroke="white" stroke-width="2"/>
+                            <path d="M19.7267 20.6667C19.7267 18.0867 17.16 16 14 16C10.84 16 8.27333 18.0867 8.27333 20.6667M14 14C14.8841 14 15.7319 13.6488 16.357 13.0237C16.9821 12.3986 17.3333 11.5507 17.3333 10.6667C17.3333 9.78261 16.9821 8.93477 16.357 8.30965C15.7319 7.68453 14.8841 7.33334 14 7.33334C13.1159 7.33334 12.2681 7.68453 11.643 8.30965C11.0179 8.93477 10.6667 9.78261 10.6667 10.6667C10.6667 11.5507 11.0179 12.3986 11.643 13.0237C12.2681 13.6488 13.1159 14 14 14V14Z" stroke="#FEFEFE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                           Adicionar Contato</td>
+                        <td>Adicionar Contato</td>
+                        </tr>
+                </tbody>
+            </table>
+
+         <script src="main.js"></script>   
+</body>
+</html>
