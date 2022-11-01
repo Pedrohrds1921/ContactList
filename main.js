@@ -20,7 +20,7 @@ telInput.addEventListener("input",e=>{
 function addNewContact(){
     const nameContact=String(nameInput.value).toLowerCase()
     console.log(nameContact)
-    if(namesList.includes(nameContact.toLowerCase())){
+    if(namesList.includes(nameContact)){
         msgerror.classList.add("open")
         setTimeout(()=>msgerror.classList.remove("open"),5000)
     }else{
